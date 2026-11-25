@@ -1,0 +1,44 @@
+/* Reset básico e tipografia */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  line-height: 1.6;
+}
+
+/* Títulos */
+h1 {
+  color: #2c3e50;
+  text-align: center;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+h2 {
+  color: #34495e;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+/* Textos */
+p {
+  margin: 5px 0 15px 0;
+}
+
+/* Botões */
+button {
+  background-color: #27ae60;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #219150;
+}
